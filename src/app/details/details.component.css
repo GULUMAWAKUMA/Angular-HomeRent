@@ -1,0 +1,38 @@
+mat-grid-tile {
+   background: lightblue;
+ }
+ /* styles.css */
+/* body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+} */
+
+.container {
+  max-width: 700px;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #333;
+}
+
+.property-info {
+  margin-top: 20px;
+}
+
+.property-info p {
+  margin: 10px 0;
+}
+
+.availability {
+  color: green;
+}
+
+.unavailability {
+  color: red;
+}

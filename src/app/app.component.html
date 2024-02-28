@@ -1,0 +1,22 @@
+
+<p>
+  <mat-toolbar color="primary">
+    <a style="color:rgb(255, 255, 255);" [routerLink]="['/']">
+    <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+      <mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="home"></mat-icon>
+    </button>
+  </a>
+    <span>Homes</span>
+    <span class="example-spacer"></span>
+    <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+      <mat-icon>home</mat-icon>
+    </button>
+    <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+      <mat-icon>share</mat-icon>
+    </button>
+  </mat-toolbar>
+</p>
+<section class="content">
+  <router-outlet></router-outlet>
+  <!-- <app-home></app-home> -->
+</section>

@@ -1,0 +1,11 @@
+<form class="example-form" style="display: flex; justify-content: space-between;">
+   <mat-form-field class="example-full-width">
+      <mat-label>Search</mat-label>
+     <input matInput type="search" placeholder="Ex. Filter by city" #filter>
+   </mat-form-field>
+   <button style="margin-left: 10px; margin-top: 5px;" mat-raised-button color="primary" (click)="filterResults(filter.value)">Search</button>
+
+ </form>
+ <section >
+   <app-housinglocation style="padding-left: 10px; display: flex; flex-wrap: wrap; gap: 15px;" [filteredLocationList]="filteredLocationList" ></app-housinglocation>
+</section>
